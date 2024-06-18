@@ -1,0 +1,296 @@
+
+.resized-image {
+    width: 50%;
+    height: auto;}
+.image-electromenager{
+    display: flex;
+    justify-content: center;
+}
+.image-depannage{ 
+    display: flex;
+    justify-content: center;}
+
+    figure {
+       text-align: center;
+       margin: 20px;
+   }
+   figure img {
+       max-width: 100%;
+       height: auto;
+   }
+   figcaption {
+       margin-top: 10px;
+       font-size: 82px;
+       color: #333;
+   }
+   .container {
+       display: flex;
+       justify-content: center; /* Pour espacer les images */
+       width: 100%;
+      
+    
+   }
+   .container img {
+       max-width: 50%; /* Ajuster la taille des images */
+       text-align: center;
+       margin: auto;
+      
+   }
+
+.images{
+width: auto;
+height: 363px;
+}
+
+.services {
+text-align: center;
+font-size: 54px;
+font-weight: bold;
+margin-top: 20px; /* Espacement entre la ligne et le texte "nos services" */
+}
+.réparation {
+text-align: center;
+font-size: 32px;
+font-weight: bold;
+margin-top: 20px; /* Espacement entre la ligne et le texte "La réparation" */
+}
+hr {
+width: 90%; /* Largeur de la ligne */
+margin-top: 20px; /* Espacement entre la ligne et le rectangle */
+}
+.container-image{
+    width: 50%;
+    margin: auto;
+}
+.responsive-image {
+    max-width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: CENTER;
+    flex-direction: column;
+
+  }
+.about{
+    max-width: 100%;
+    height: auto;
+  }
+figcaption {
+    font-size: 20px; /* Ajustez cette valeur selon vos besoins */
+    margin: auto;
+  }
+.depannage{    
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+.about {
+    text-align: center;
+  }
+.about img {
+    max-width: 100%;
+    height: auto;
+  }
+.caption-text {
+    max-width: 50%;
+    display: inline-block;
+    text-align: center;
+    font-size:32px
+   
+  }
+.cadre{font-size: 40px;
+    text-align: center; /* Pour centrer horizontalement */
+    flex-direction: column;}
+
+    .container-cadre {
+        display: flex;
+        justify-content: center;
+        width: 100%;/*Prend toute la largeur de l'écran*/
+    }
+    .container-cadre > div {
+        width: 100%;}
+    .column { 
+        display: block;
+        flex-direction: column;
+        /*width: 100%; /* Ajustez la largeur selon vos besoins */
+    }
+    .cadre {
+        border: 1px solid #000; /* Ajouter une bordure pour les cadres */
+        /*padding: 10px; /* Ajouter du padding pour l'espacement intérieur */*/
+        margin-bottom: 10px; /* Ajouter de l'espace entre les cadres */
+        text-align: center; /* Centrer le texte */
+    }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #104bd7;
+    color: white;
+    padding: 1%;
+    text-align: center;
+    font-size: 32PX;
+}
+nav {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #333;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 32px;
+}
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+nav ul li a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.scrollToTop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 40px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    
+  }
+  
+  .scrollToTop.show {
+    display: block;
+  }
+    
+   /* styles.css */
+.image-container {
+    perspective: 1000px; /* Ajoute une perspective pour la 3D */
+}
+
+#rotateImage {
+    width: 600px; /* Ajustez selon vos besoins */
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    margin: auto;}
+.cadre {
+    width: auto;
+  background-color: hsla(0, 2%, 40%, 0.418); /* Couleur de fond gris */
+  /*padding: 20px; /* Espacement intérieur du cadre */*/
+  border-radius: 10px; /* Bord arrondi */
+  margin-bottom: 20px; /* Ajout d'un espace en bas de chaque cadre */
+}
+.boutique {
+    text-align: center;
+    font-size: 64px;
+    font-weight: bold;
+    margin-top: 20px; /* Espacement entre la ligne et le texte "nos services" */
+  
+    }
+    .page-services {
+        text-align: justify;
+        font-size: 64px;
+        font-weight: bold;
+        margin-top: 20px; /* Espacement entre la ligne et le texte "nos services" */
+        }
+        /* Styles par défaut */
+
+/* Media query pour les écrans de moins de 600px de large */
+@media (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+    .caption-text {
+        margin-top: 10px;
+        font-size: 16px;
+        color: #333;
+        text-align: center;
+    }
+    .services {
+        text-align: center;
+        font-size: 32px;
+        font-weight: bold;
+        margin-top: 20px; /* Espacement entre la ligne et le texte "nos services" */
+        }
+        header {
+            background-color: #104bd7;
+            color: white;
+            padding: 1%;
+            text-align: center;
+            font-size: 16px;}
+       
+            nav ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                text-align: center;
+                font-size: 10px;
+            }
+            .image-electromenager{
+                display: flex;
+                justify-content: center;
+            }
+            .boutique {
+                text-align: center;
+                font-size: 50px;
+                font-weight: bold;
+                margin-top: 20px; /* Espacement entre la ligne et le texte "nos services" */
+              
+                }
+                .container-cadre {
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;/*Prend toute la largeur de l'écran*/
+                    height: auto;
+                }
+                .cadre{font-size: 80%;
+                    text-align: center; /* Pour centrer horizontalement */
+                    flex-direction: column;
+             }
+    
+    }
+/* Media query pour les écrans entre 600px et 900px de large */
+@media (min-width: 600px) and (max-width: 900px) {
+    body {
+        background-color: lightgreen;
+    }
+}
+
+/* Media query pour les écrans de plus de 900px de large */
+@media (min-width: 900px) {
+    body {
+        background-color: lightcoral;
+    }
+}
+
+/* Media query pour les écrans en orientation portrait */
+@media (orientation: portrait) {
+    body {
+        font-size: 18px;
+    }
+}
+
+/* Media query pour les écrans en orientation paysage */
+@media (orientation: landscape) {
+    body {
+        font-size: 20px;
+    }
+}
+
+  
+
+          
