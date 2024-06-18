@@ -268,6 +268,53 @@ nav ul li a:hover {
     body {
         background-color: lightgreen;
     }
+    .caption-text {
+        margin-top: 10px;
+        font-size: 16px;
+        color: #333;
+        text-align: center;
+    }
+    .services {
+        text-align: center;
+        font-size: 32px;
+        font-weight: bold;
+        margin-top: 20px; /* Espacement entre la ligne et le texte "nos services" */
+        }
+        header {
+            background-color: #104bd7;
+            color: white;
+            padding: 1%;
+            text-align: center;
+            font-size: 16px;}
+       
+            nav ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                text-align: center;
+                font-size: 10px;
+            }
+            .image-electromenager{
+                display: flex;
+                justify-content: center;
+            }
+            .boutique {
+                text-align: center;
+                font-size: 50px;
+                font-weight: bold;
+                margin-top: 20px; /* Espacement entre la ligne et le texte "nos services" */
+              
+                }
+                .container-cadre {
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;/*Prend toute la largeur de l'écran*/
+                    height: auto;
+                }
+                .cadre{font-size: 80%;
+                    text-align: center; /* Pour centrer horizontalement */
+                    flex-direction: column;
+             }
 }
 
 /* Media query pour les écrans de plus de 900px de large */
