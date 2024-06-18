@@ -210,7 +210,7 @@ nav ul li a:hover {
         /* Styles par défaut */
 
 /* Media query pour les écrans de moins de 600px de large */
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
     body {
         background-color: lightblue;
     }
@@ -264,7 +264,7 @@ nav ul li a:hover {
     
     }
 /* Media query pour les écrans entre 600px et 900px de large */
-@media (min-width: 600px) and (max-width: 900px) {
+@media screen and (min-width: 600px) and (max-width: 900px) {
     body {
         background-color: lightgreen;
     }
@@ -318,7 +318,7 @@ nav ul li a:hover {
 }
 
 /* Media query pour les écrans de plus de 900px de large */
-@media (min-width: 900px) {
+@media screen and (min-width: 900px) {
     body {
         background-color: lightcoral;
     }
