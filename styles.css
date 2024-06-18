@@ -18,7 +18,7 @@
        max-width: 100%;
        height: auto;
    }
-   figcaption {
+   .figcaption {
        margin-top: 10px;
        font-size: 82px;
        color: #333;
@@ -74,7 +74,7 @@ margin-top: 20px; /* Espacement entre la ligne et le rectangle */
     max-width: 100%;
     height: auto;
   }
-figcaption {
+.figcaption {
     font-size: 20px; /* Ajustez cette valeur selon vos besoins */
     margin: auto;
   }
