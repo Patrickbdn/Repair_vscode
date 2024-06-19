@@ -309,11 +309,6 @@ header {
         color: #333;
         text-align: center;
     }
-    .nav-links a {
-        color: white;
-        text-decoration: none;
-        font-size: auto;
-    }
     .services {
         text-align: center;
         font-size: 32px;
