@@ -1,11 +1,92 @@
+/* style.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.image-electromenager{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-links li {
+    padding: 0 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 10%;
+    height: 20px;
+}
+
+.burger div {
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        height: calc(100vh - 60px);
+        background-color: #333;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav-links li {
+        padding: 20px 0;
+    }
+
+    .burger {
+        display: flex;
+    }
+}
+
+.nav-active {
+    display: flex !important;
+}
+
+
 
 .resized-image {
     width: 50%;
     height: auto;}
-.image-electromenager{
-    display: flex;
-    justify-content: center;
-}
+
 .image-depannage{ 
     display: flex;
     justify-content: center;}
@@ -28,7 +109,7 @@
        justify-content: center; /* Pour espacer les images */
        width: 100%;
       
-    
+
    }
    .container img {
        max-width: 50%; /* Ajuster la taille des images */
@@ -64,7 +145,7 @@ margin-top: 20px; /* Espacement entre la ligne et le rectangle */
 }
 .responsive-image {
     max-width: 50%;
-    height: auto;
+    height: 50%;
     display: flex;
     justify-content: CENTER;
     flex-direction: column;
@@ -103,11 +184,13 @@ margin-top: 20px; /* Espacement entre la ligne et le rectangle */
 
     .container-cadre {
         display: flex;
+        gap: 30px;
         justify-content: center;
         width: 100%;/*Prend toute la largeur de l'écran*/
+        flex-grow: 9;
     }
     .container-cadre > div {
-        width: 100%;}
+        width:AUTO;}
     .column { 
         display: block;
         flex-direction: column;
@@ -115,7 +198,7 @@ margin-top: 20px; /* Espacement entre la ligne et le rectangle */
     }
     .cadre {
         border: 1px solid #000; /* Ajouter une bordure pour les cadres */
-        /*padding: 10px; /* Ajouter du padding pour l'espacement intérieur */*/
+        /*padding: 10px; /* Ajouter du padding pour l'espacement intérieur */
         margin-bottom: 10px; /* Ajouter de l'espace entre les cadres */
         text-align: center; /* Centrer le texte */
     }
@@ -131,31 +214,31 @@ header {
     text-align: center;
     font-size: 32PX;
 }
-nav {
+/*nav {
     margin: 0;
     padding: 10px 0;
     background-color: #333;
-}
-nav ul {
+}*/ barre de navigation sous le titre mise en pause
+/*nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     text-align: center;
     font-size: 32px;
-}
-nav ul li {
+}*/
+/*nav ul li {
     display: inline;
     margin-right: 10px;
-}
-nav ul li a {
+}*/
+/*nav ul li a {
     color: white;
     text-decoration: none;
     padding: 8px 16px;
-}
-nav ul li a:hover {
+}*/
+/*nav ul li a:hover {
     background-color: #ddd;
     color: black;
-}
+}*/
 .scrollToTop {
     display: none;
     position: fixed;
@@ -181,6 +264,10 @@ nav ul li a:hover {
 .image-container {
     perspective: 1000px; /* Ajoute une perspective pour la 3D */
 }
+.icones-electromenager{
+    max-width: 30%;
+    margin: auto;
+}
 
 #rotateImage {
     width: 600px; /* Ajustez selon vos besoins */
@@ -189,10 +276,10 @@ nav ul li a:hover {
     margin: auto;}
 .cadre {
     width: auto;
-  background-color: hsla(0, 2%, 40%, 0.418); /* Couleur de fond gris */
-  /*padding: 20px; /* Espacement intérieur du cadre */*/
-  border-radius: 10px; /* Bord arrondi */
-  margin-bottom: 20px; /* Ajout d'un espace en bas de chaque cadre */
+     background-color: hsla(0, 2%, 40%, 0.418); /* Couleur de fond gris */
+  /*padding: 20px; Espacement intérieur du cadre */
+    border-radius: 10px; /* Bord arrondi */
+    margin-bottom: 20px; /* Ajout d'un espace en bas de chaque cadre */
 }
 .boutique {
     text-align: center;
@@ -295,6 +382,7 @@ nav ul li a:hover {
                 font-size: 10px;
             }
             .image-electromenager{
+            
                 display: flex;
                 justify-content: center;
             }
@@ -336,6 +424,7 @@ nav ul li a:hover {
     body {
         font-size: 20px;
     }
+
 }
 
   

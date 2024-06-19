@@ -23,4 +23,12 @@ document.addEventListener("DOMContentLoaded", () => {
   image.addEventListener("mouseout", () => {
       image.style.transform = "rotateY(0deg)";
   });
+  // script.js
+const burger = document.querySelector('.burger');
+const navLinks = document.querySelector('.nav-links');
+
+burger.addEventListener('click', () => {
+    navLinks.classList.toggle('nav-active');
+});
+
 });
