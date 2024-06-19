@@ -26,16 +26,18 @@ nav {
     list-style: none;
     display: flex;
     flex-direction: row;
+
 }
 
 .nav-links li {
     padding: 0 20px;
+
 }
 
 .nav-links a {
     color: white;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 50px;
 }
 
 .burger {
@@ -187,7 +189,7 @@ margin-top: 20px; /* Espacement entre la ligne et le rectangle */
         gap: 30px;
         justify-content: center;
         width: 100%;/*Prend toute la largeur de l'écran*/
-        flex-grow: 9;
+    
     }
     .container-cadre > div {
         width:AUTO;}
@@ -307,6 +309,11 @@ header {
         color: #333;
         text-align: center;
     }
+    .nav-links a {
+        color: white;
+        text-decoration: none;
+        font-size: auto;
+    }
     .services {
         text-align: center;
         font-size: 32px;
@@ -348,6 +355,7 @@ header {
                     text-align: center; /* Pour centrer horizontalement */
                     flex-direction: column;
              }
+           
     
     }
 /* Media query pour les écrans entre 600px et 900px de large */
@@ -360,6 +368,11 @@ header {
         font-size: 16px;
         color: #333;
         text-align: center;
+    }
+    .nav-links a {
+        color: white;
+        text-decoration: none;
+        font-size: 30px;
     }
     .services {
         text-align: center;
@@ -403,6 +416,7 @@ header {
                     text-align: center; /* Pour centrer horizontalement */
                     flex-direction: column;
              }
+            
 }
 
 /* Media query pour les écrans de plus de 900px de large */
